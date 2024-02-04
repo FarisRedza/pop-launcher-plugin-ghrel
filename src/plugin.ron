@@ -1,11 +1,11 @@
 (
-    name: "GitHub Release Downloader",
-    description: "Syntax: ghrel <word>",
+    name: "GitHub Downloader",
+    description: "Syntax: ghd <word>",
     query: (
-        regex: "^(ghrel)\\s.*",
-        help: "ghrel",
+        regex: "^(ghd)\\s.*",
+        help: "ghd",
         isolate: true
     ),
-    bin: (path: "ghrel"),
+    bin: (path: "github-downloader"),
     icon: Name("folder-download-symbolic")
 )
