@@ -1,4 +1,4 @@
-Package: pop-launcher-plugin-ghrel
+Package: pop-launcher-plugin-github-downloader
 Version: 0.1
 Architecture: all
 Section: misc
