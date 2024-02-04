@@ -1,1 +1,1 @@
-# pop-launcher-plugin-ghrel (WIP)
+# pop-launcher-plugin-github-downloader (WIP)
