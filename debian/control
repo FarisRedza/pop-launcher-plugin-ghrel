@@ -1,0 +1,9 @@
+Package: pop-launcher-plugin-ghrel
+Version: 0.1
+Architecture: all
+Section: misc
+Essential: no
+Priority: optional
+Depends: pop-launcher, wget
+Maintainer: Faris Redza <faris.redza1999@gmail.com>
+Description: A pop-launcher plugin for downloading the lates release from a GitHub repo.

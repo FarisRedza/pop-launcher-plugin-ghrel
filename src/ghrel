@@ -1,0 +1,14 @@
+#!/bin/bash
+
+github_latest_release() {
+    local username=$1
+    local repository=$2
+
+    # Get the latest release information from GitHub API using jq
+    local latest_release=$(curl -s "https://api.github.com/repos/$username/$repository/releases/latest" | jq -r '.assets[0].browser_download_url')
+
+    # Use wget to download the deb file
+    wget $latest_release
+}
+
+github_latest_release "$@"
